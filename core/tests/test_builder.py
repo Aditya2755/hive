@@ -3,7 +3,7 @@
 from pathlib import Path
 
 from framework import BuilderQuery, Runtime
-from framework.schemas.run import RunStatus
+from framework.schemas import RunStatus
 
 
 def create_successful_run(runtime: Runtime, goal_id: str = "test_goal") -> str:
